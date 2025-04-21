@@ -1,14 +1,4 @@
-torch>=2.0.0
-torchvision>=0.15.0
-ultralytics>=8.0.0  # YOLOv12 framework
-opencv-python>=4.5.0
-numpy>=1.21.0
-pandas>=1.3.0
-matplotlib>=3.4.0
-scikit-learn>=1.0.0
-scipy>=1.7.0
-tqdm>=4.62.0
-seaborn>=0.11.0
-Pillow>=8.3.0
-Flask>=2.0.0  # If using Flask for UI
-streamlit>=1.10.0  # If using Streamlit for UI
+streamlit==1.33.0
+ultralytics==8.1.25
+Pillow==10.2.0
+numpy==1.26.4
