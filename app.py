@@ -3,9 +3,9 @@ from ultralytics import YOLO
 from PIL import Image
 import numpy as np
 
-model1 = YOLO("models/brain-tumor.pt")
-model2 = YOLO("models/breasr-cancer.pt")
-model3 = YOLO("models/bone-fracture.pt")
+model1 = YOLO("brain-tumor.pt")
+model2 = YOLO("breasr-cancer.pt")
+model3 = YOLO("bone-fracture.pt")
 
 
 # Define custom class names for each model
